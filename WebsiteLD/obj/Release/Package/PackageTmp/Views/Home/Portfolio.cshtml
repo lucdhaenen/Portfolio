@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Portfolio";
+}
+<div id="container">    
+    <h4>Portfolio</h4>    
+    <nav>
+        <ul id="NavPortfolio" class="clearfix">
+            <li>@Html.ActionLink("Voorbeelden", "Index", "Portfolio")</li>
+            <li>@Html.ActionLink("Eigen projecten", "EigenProjecten", "Portfolio")</li>
+            <li>@Html.ActionLink("CV", "Cv", "Portfolio")</li>
+        </ul>
+    </nav>
+    <br />   
+    <section>
+        <p>Het navigatiemenu hierboven zal je leiden naar verschillende onderdelen.<br />
+            Aangezien ik nog volop bezig ben deze site verder te ontwikkelen zullen er telkens nieuwe voorbeelden of
+            projecten bijkomen / aangevuld worden.<br />
+        <br />
+            <b>Voorbeelden: </b><br />
+            Hier kan je oefeningen, taken en testen terugvinden die ik gehad heb gedurende mijn
+            opleiding bij de VDAB te Antwerpen.<br />
+            Er zal een onderscheid gemaakt worden tussen oefeningen en taken enerzijds, en testen anderzijds. Een korte 
+            beschrijving over het doel, de gebruikte technieken en eventueel een screenshot zullen ook te vinden zijn.<br />
+            Ook een link naar de broncode en een werkende oefening of project zullen te vinden zijn.        
+        </p>
+        <p>
+            <b>Eigen projecten: </b><br />
+            Enkele projecten die ik voor mezelf heb ontwikkeld.<br />
+            Deze projecten zijn geschreven in VB.NET zonder de nieuwste technieken. Daarom heb ik ook besloten deze projecten
+            volledig te herwerken naar .NET C# met gebruik van de nieuwste technieken (MVC 4, Entity Framework 5, WPF, ...)<br />
+            <br />
+            Aangezien deze projecten nog vollop terug in ontwikkeling zijn, zal gaandeweg telkens een nieuw stuk toegevoegd
+            worden aan de download link van het project en de nodige screenshots aangevuld worden.
+        </p>
+        <p>
+            <b>CV: </b><br />
+            Hier kan je mijn volledige Curriculum Vitae terugvinden.<br /><br />
+            De nodige linken om dit document te downloaden als PDF-bestand of Word-bestand zijn er uiteraard ook.
+        </p>
+        <br />
+        <p>
+            Moesten er nog verdere vragen en/of opmerkingen zijn kan je natuurlijk steeds contact met me opnemen.
+        </p>
+    </section>
+</div>

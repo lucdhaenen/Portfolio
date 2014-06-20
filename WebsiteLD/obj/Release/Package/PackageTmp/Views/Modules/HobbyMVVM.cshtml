@@ -1,0 +1,62 @@
+﻿@{
+    ViewBag.Title = "HobbyMVVM";
+}
+<div id="container" class="clearfix">
+    <div id="voorbeelden" class="clearfix">
+        <div id="partial" class="clearfix">
+            @Html.Partial("Voorbeelden")
+        </div>
+        <div id="inhoud" class="clearfix">
+            <div id="inhoudH4" class="clearfix">
+                <div id="titel" class="left">
+                    <h4>WPF</h4>
+                </div>
+            </div>
+            <div id="oefeningen" class="voorbeelden">
+                <h1>HobbyMVVM</h1>
+            </div>
+            <h3>Oefening voor de module WPF</h3>
+            <h3>Hoofdopdracht</h3>
+            <p>
+                In een Listbox kunnen we diverse activiteiten laden via een button. Deze gegevens kunnen van een database komen, of
+                zoals in dit voorbeeld hardcoded in de map ViewModel. <br />
+                De class HobbyLijst bevat alle gegevens om te kunnen weergeven door middel van Binding.
+            </p><br />
+            <br />
+            <br />
+            <div id="inhoudH4" class="clearfix">
+                <div class="left">
+                    <div id="voorbeeld" class="clearfix">
+                        <ul>
+                            <li>
+                                <div id="wrapperDownload" class="clearfix">
+                                    <div id="downloadImg">
+                                        <img src="~/Content/images/voorbeeld.png" />
+                                    </div>
+                                    <div id="voorbeeldText">
+                                        <a href="https://github.com/lucdhaenen/HobbyMVVM_EXE.git" target="_blank">Voorbeeld</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="downloadVoorbeeld" class="clearfix">
+                    <ul>
+                        <li>
+                            <div id="voorbeeldDownload" class="clearfix">
+                                <div id="downloadImg">
+                                    <img src="~/Content/images/rsz_vs2013.jpg" />
+                                </div>
+                                <div id="voorbeeldText">
+                                    <a href="https://github.com/lucdhaenen/HobbyMVVM_SRC.git" target="_blank">Broncode</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Ribbon";
+}
+<div id="container" class="clearfix">
+    <div id="voorbeelden" class="clearfix">
+        <div id="partial" class="clearfix">
+            @Html.Partial("Voorbeelden")
+        </div>
+        <div id="inhoud" class="clearfix">
+            <div id="inhoudH4" class="clearfix">
+                <div id="titel" class="left">
+                    <h4>WPF</h4>
+                </div>
+            </div>
+            <div id="oefeningen" class="voorbeelden">
+                <h1>Ribbon</h1>
+            </div>
+            <h3>Oefening voor de module WPF</h3>
+            <h3>Hoofdopdracht</h3>
+            <p>
+                <u>Bestand:</u><br />
+                Deze RibbonTab is helemaal geïmplementeerd via de CommandBindings en heeft geen extra attributen of code nodig.<br /><br />
+                <u>Edit:</u><br />
+                Deze RibbonTab bestaat uit 3 RibbonGroups met verschillende implementatie mogelijkheden:<br />
+                - Bewerken : wordt volledig via CommandBindings geïmplementeerd<br />
+                - Opmaak : De Bold- en Italic-CheckBox hebben een converter nodig om de IsChecked om te zetten naar hun specifieke waarde.<br /><br />
+                <u>Kleur:</u><br />
+                 Bij het kiezen van de tekstkleur zijn er voorzorgsmaatregelen genomen: in de Tag-attribuut staat de 
+                 hexadecimale waarde die de overeenkomstige kleur voorstelt. Als je een kleur kiest (via het Click-event) 
+                 dan kan voor elke RadioButton dezelfde code gebruikt worden.<br /><br />
+
+                Een <b>RibbonContextualTabGroup</b>  waarin gespecifieerd wordt wanneer een extra RibbonTab zichtbaar wordt.
+                bij het aanvinken van de “Alleen-lezen” mogelijkheid wordt de extra RibbonTab “TabNieuw” getoond.<br />
+                TabNieuw is een RibbonTab met als inhoud een RibbonMenuItem die een lege TextBox toont.<br /><br />
+
+                <b>Een QuickAccessToolBar (QAT): </b>bovenaan in de titelbalk aan de linkerzijde naast het application symbool. 
+                De bedoelling van deze bar is een snelle toegang tot de meest gebruikte items binnen de applicatie.<br />
+                Je kan er voor zorgen dat de gebruiker zelf knoppen kan bijvoegen of niet.<br /><br />
+
+                <b>SuperToolTip: </b>De RibbonButton heeft de mogelijkheid om een SuperToolTip weer te geven.
+            </p><br />
+            <br />
+            <br />
+            <div id="inhoudH4" class="clearfix">
+                <div class="left">
+                    <div id="voorbeeld" class="clearfix">
+                        <ul>
+                            <li>
+                                <div id="wrapperDownload" class="clearfix">
+                                    <div id="downloadImg">
+                                        <img src="~/Content/images/voorbeeld.png" />
+                                    </div>
+                                    <div id="voorbeeldText">
+                                        <a href="https://github.com/lucdhaenen/Ribbon_EXE.git" target="_blank">Voorbeeld</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="downloadVoorbeeld" class="clearfix">
+                    <ul>
+                        <li>
+                            <div id="voorbeeldDownload" class="clearfix">
+                                <div id="downloadImg">
+                                    <img src="~/Content/images/rsz_vs2013.jpg" />
+                                </div>
+                                <div id="voorbeeldText">
+                                    <a href="https://github.com/lucdhaenen/Ribbon_SRC.git" target="_blank">Broncode</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<header>
+    <div class="top clearfix">
+        <div id="headerText">
+            <h1>Luc D'haenen</h1> 
+        </div>
+        <div id="headerNav">
+            <nav>
+                <ul>
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Portfolio", "Portfolio", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+            </nav>
+        </div> 
+    </div>          
+</header>
+<footer>
+    <p>&copy; @DateTime.Today.Year Luc D'haenen</p>
+</footer>
+

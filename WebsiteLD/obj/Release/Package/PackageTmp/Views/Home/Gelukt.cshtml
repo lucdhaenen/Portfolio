@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Gelukt";
+}
+<div id="SendMail">
+    @if (ViewBag.succes == true)
+    {
+        <h2>Uw bericht is succesvol verzonden.</h2>        
+    }
+    else
+    {
+        <h2>Er is een probleem met het verzenden.</h2>
+        @ViewBag.fout
+    }
+</div>

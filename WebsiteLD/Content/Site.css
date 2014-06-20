@@ -1,0 +1,647 @@
+﻿body {
+    font-size: 1em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #5F192C;
+    background-color: #E5E6D8;
+    margin: 0;
+    padding: 0;
+    height:100%;    
+}
+
+#container
+{
+    width: 90%;
+    margin: 0 auto;    
+    padding-bottom: 5em;
+    padding-top: 8em;
+}
+
+#wrapper
+{
+    display: inline-block;
+    width:100%;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+footer
+{
+    background-color: #422833;  
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    
+}
+header
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul
+{
+    list-style-type: none;
+   
+}
+nav ul li
+{
+    display: inline-block;
+    width:6em;
+}
+nav ul li a
+{
+    color: wheat;
+    text-decoration: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #6F8A79;
+}
+
+footer p
+{
+    text-align: center;
+    font-size: small;
+    color: wheat;
+    
+}
+
+.top
+{
+    width:100%;
+    height: 8em;
+    background-color: #422833; 
+}
+
+#headerText
+{
+    float: left;
+    font-family:'Lucida Handwriting';
+    font-size: 1.5em;
+    color: wheat;
+    padding-left: 1em;
+  
+}
+
+#headerNav
+{
+    float: right;    
+    font-size: 1.5em;
+    color: wheat;
+    padding-right: 1em;
+    padding-top:1em;
+}
+
+#image
+{
+    float: left; 
+    width: 24%;   
+}
+#inhoud
+{
+    float: right;
+    margin-left: 2em;
+    width: 72%;
+}
+#image img
+{
+    height: 20em;
+    width: 15em;
+    margin: 1em;
+}
+#social
+{
+    margin: 0 auto;
+    padding:0;    
+}
+#social ul
+{
+    list-style-type: none;
+    margin-left: 4em;   
+}
+#social ul li
+{
+    display: inline-block;    
+}
+social ul li a
+{
+    text-decoration: none;
+}
+#socialMedia
+{    
+    padding:0;    
+    margin: 0 auto;
+    margin-top: 4em;
+}
+#socialMedia ul
+{
+    list-style-type: none;
+   
+}
+#socialMedia ul li
+{
+    display: inline-block; 
+    margin-left: 12em;
+        
+}
+
+#socialImg
+{
+    float: left;
+    padding-top: 0.5em;
+}
+#socialText
+{
+    float: left;
+    margin-left:0.5em;
+    margin-right: 4em;
+}
+#socialTextSingle
+{
+    float: left;
+    margin-left:0.5em;
+    margin-right: 4em;
+    margin-top: 0.6em;
+}
+
+#social ul
+{
+    list-style-type: none;
+}
+
+#contact
+{
+    font-size: 1.5em;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2em;
+    border: 1px solid black;
+    border-radius: 3%;
+    padding: 2em;    
+}
+
+.rij
+{
+    clear: left;
+}
+label
+{
+    float: left;
+    width: 10em;
+    margin-bottom: 1em;
+}
+textarea
+{
+    width:31em;
+    height: 10em;
+    margin-bottom: 1em;
+}
+input
+{
+    height: 2em;
+    width: 30em;
+    
+}
+.knop
+{
+    margin-top: 2em;
+    width: 10em;
+    font-size: 1em;
+    margin-left: 3em;
+}
+
+
+#NavPortfolio li
+{
+    float:left;    
+    text-align: center;
+    width: 10em;
+    margin-right: 1em;
+    border: 1px solid #422833;
+    border-radius: 50%;
+    
+}
+#NavPortfolio li a
+{
+    color: #6F8A79;
+    padding-top:0.5em;
+    font-size: 1.2em;
+    display: block;
+    height: 2em;
+}
+#NavPortfolio li a:hover
+{
+    background-color: #422833;
+    color: wheat;
+    border-radius:inherit;
+}
+
+#topPortfolio
+{
+    width: 100%;
+    /*display: block;*/
+    float: left;
+}
+.left
+{
+    float: left;
+    width: 49%;
+    text-align: left;
+}
+.right
+{
+    float: right;
+    width: 49%;
+    text-align:right;
+}
+.right img
+{
+    height: 10%;
+    width: 10%;
+}
+
+#downloadPortfolio
+{    
+    padding:0;    
+    margin: 0 auto;    
+}
+#downloadPortfolio ul
+{
+    list-style-type: none;
+   
+}
+#downloadPortfolio ul li
+{
+    display: inline-block; 
+    margin-left: 12em;
+        
+}
+
+
+#downloadImg
+{
+    float: left;
+    
+}
+#downloadText
+{
+    float: left;
+    margin-left: 1em;
+    padding-top: 0.2em;
+}
+
+#SendMail
+{ 
+    width: 50%; 
+    margin: 0 auto;
+    
+    margin-top: 5em;
+}
+#SendMail h2
+{
+    text-align: center;
+    border: 3px solid #422833;    
+    padding: 2em;
+}
+
+.containerCV
+{
+     margin-left: 1.2em;
+}
+
+.cv
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.h2
+{
+    border: 2px solid black;
+    padding-left: 1em;
+}
+
+.leftCV
+{
+    margin-top: 0;    
+    width: 45%;
+    float: left;
+}
+.leftCV ul {
+    margin: 0;
+}
+
+.rightCV {
+    width: 50%;
+    float: right;
+}
+.left1 {
+    width: 50%;
+    float: left;
+}
+.left1 ul {
+    margin: 0;
+    margin-left: 1em;
+    padding: 0;
+}
+.right1 {
+    width: 48%;
+    float:left;
+}
+.right1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.functie {    
+    float: left;
+    width: 79%;
+}
+.functie ul {
+    margin-top: 0;
+}
+.jaar {
+    text-align:center;
+    float:right;
+    width: 20%;
+}
+.rechts {
+    text-align:right;    
+}
+.tekst {
+    margin-right: 3em;
+}
+
+#update{
+    width: 100%;    
+    float: left;
+}
+
+#navVoorbeelden
+{
+    float: left;
+    
+}
+
+#navVoorbeelden ul li
+{
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#navVoorbeelden li
+{      
+    text-align: center;
+    width: 10em;
+    margin-right: 1em;
+    border: 1px solid #422833;
+    border-radius: 5%;
+}
+
+#navVoorbeelden li a
+{
+    display: block;     
+    font-size: 1.2em;
+    height: 2em;    
+    padding-top: 0.5em;
+    color: #6F8A79;
+}
+
+#navVoorbeelden li a:hover
+{
+    color: wheat;
+    background-color: #422833;
+    border-radius:inherit;
+}
+
+#voorbeelden
+{
+    float: left;
+    width: 100%;
+}
+.voorbeelden h1
+{
+    border-bottom: 3px solid #6F8A79;    
+    color: #422833;
+    
+}
+
+
+#partial
+{
+    float: left;
+    width: 24%;
+    position: fixed;
+}
+
+#downloadVoorbeeld
+{    
+    padding:0;    
+    margin: 0 auto;
+    float: right;    
+}
+#downloadVoorbeeld
+{
+    list-style-type: none;
+   
+}
+#downloadVoorbeeld ul li
+{
+    display: inline-block; 
+    /*margin-left: 12em;*/
+        
+}
+
+
+#downloadImg
+{
+    float: left;
+    
+}
+#downloadText
+{
+    float: left;
+    margin-left: 1em;
+    padding-top: 0.2em;
+}
+
+#inhoudH4
+{
+    float: left;
+    width: 100%;
+}
+#inhoudH4 h4
+{
+    width:10em;
+}
+
+#imgModules
+{
+    margin-bottom: 1em;      
+}
+#imgModules img:hover
+{
+    border: 3px solid #422833;
+}
+
+#imgModules img 
+{
+    border: 3px solid #6F8A79;
+    border-radius: 3%; 
+    padding: 1em;    
+    padding-bottom: 0.8em;    
+}
+
+#screens
+{
+    margin-left: 3em;
+}
+
+#voorbeeld
+{    
+    padding:0;    
+    margin: 0 auto;
+    float: left; 
+    list-style-type: none;
+    padding-left: 5em;  
+}
+
+#voorbeeld ul li
+{
+    display: inline-block;         
+}
+#voorbeeldDownload
+{
+    padding-right: 12em;
+}
+#voorbeeldText
+{
+    float: left;
+    margin-left: 1em;
+    padding-top: 0.6em;
+}
+
+.leftEigen
+{
+    float: left;
+    width: 33%;
+}
+.rightEigen
+{
+    float: left;
+    width: 66%;    
+}
+#KopEigen
+{
+    margin-bottom: 1em;
+}
+
+#KopEigenLinks
+{
+    float: left;
+    width: 24%;
+}
+#KopEigenRechts
+{
+    float: left;
+    width: 72%;
+    margin-top: 1.5em;
+    
+}
+#KopLinks
+{
+    float: left;
+    width: 45%;
+    padding-left: 7em;
+}
+#KopRechts
+{
+    float: left;
+    width: 49%;
+    margin-top: 1em;
+}
+.thumb
+{
+    float: left;
+    margin: 1em;
+    border: 3px solid #6F8A79;
+    border-radius: 3%; 
+    padding: 1em;    
+    padding-bottom: 0.8em;  
+}
+.thumb:hover
+{
+    border: 3px solid #422833;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+

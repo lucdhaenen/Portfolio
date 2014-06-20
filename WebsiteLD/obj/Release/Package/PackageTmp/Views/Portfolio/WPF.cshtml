@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "WPF";
+}
+<div id="container" class="clearfix">
+    <div id="voorbeelden" class="clearfix">
+        <div id="partial" class="clearfix">
+            @Html.Partial("Voorbeelden")
+        </div>
+        <div id="inhoud" class="clearfix">
+            <div id="inhoudH4" class="clearfix">
+                <div id="titel" class="left">
+                    <h4>WPF</h4>
+                </div>
+                <div id="downloadVoorbeeld" class="clearfix">
+                    <ul>
+                        <li>
+                            <div id="wrapperDownload" class="clearfix">
+                                <div id="downloadImg">
+                                    <img src="~/Content/images/download.png" />
+                                </div>
+                                <div id="downloadText">
+                                    <a href="~/Content/files/WPF.pdf" target="_blank">Inhoudsopgave cursus</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="oefeningen" class="voorbeelden">
+                <h1>Oefeningen</h1>
+                <div id="screens">                    
+                    <div id="imgModules">
+                        <a href="@Url.Action("TextBoxMVVM", "Modules")"><img src="~/Content/images/TextBox_MVVM.png" /></a>
+                    </div>
+                    <div id="imgModules">
+                        <a href="@Url.Action("Ribbon", "Modules")"><img src="~/Content/images/ribbon.png" /></a>
+                    </div> 
+                    <div id="imgModules">
+                        <a href="@Url.Action("HobbyMVVM", "Modules")"><img src="~/Content/images/HobbyMVVM.png" /></a>
+                    </div>                    
+                </div>
+            </div>
+            <div id="testen" class="voorbeelden">
+                <h1>Test</h1>
+                <p>Hier staat de test van de betreffende module van de opleiding.</p>
+            </div>
+            <br />
+            <br />
+            <p>
+                Omdat deze pagina's nog volop in ontwikkeling zijn, zullen stelselmatig oefeningen en de betreffende
+                links actief worden.
+            </p>
+        </div>
+    </div>
+</div>
