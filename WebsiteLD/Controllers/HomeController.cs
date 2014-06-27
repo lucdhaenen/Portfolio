@@ -69,7 +69,7 @@ namespace WebsiteLD.Controllers
 
                 // SMTP Auth, een emailadres welke is aangemaakt in het control panel
                 SmtpUser.UserName = "info@lumo.be";
-                SmtpUser.Password = "Monding10!";
+                SmtpUser.Password = "*******";
 
                 // Bericht verzenden
                 Smtp.UseDefaultCredentials = false;
